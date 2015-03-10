@@ -10,11 +10,17 @@ div{
 }
 
 .lineal{
-	background: -webkit-linear-gradient(blue,orange);
+	background: -webkit-linear-gradient(blue, orange);
+	background: -o-linear-gradient(blue, orange);
+	background: linear-gradient(blue, orange);
 }
-
+.colores{
+	background: -webkit-linear-gradient(blue,orange,red,yellow,violet,green);	
+}
 .angulo{
-	background: -webkit-linear-gradient(left top,blue,orange);
+	background: -webkit-linear-gradient(top left, blue, orange);
+	background: -o-linear-gradient(top left, blue, orange);
+	background: linear-gradient(to bottom right, blue, orange);
 }
 
 .radial{
