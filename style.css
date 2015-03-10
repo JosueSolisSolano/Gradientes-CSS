@@ -1,0 +1,26 @@
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin: 20px;
+}
+
+.codigo{
+	float: right;
+}
+
+.lineal{
+	background: -webkit-linear-gradient(blue,orange);
+}
+
+.angulo{
+	background: -webkit-linear-gradient(left top,blue,orange);
+}
+
+.radial{
+	background: -webkit-radial-gradient(orange, blue);
+}
+
+.repeticion{
+	background: -webkit-repeating-radial-gradient(left bottom, ellipse farthest-side, black 0%, lime 20%);
+}
